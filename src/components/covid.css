@@ -1,0 +1,117 @@
+
+   
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.container{
+    text-align: center;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 10px;
+    box-shadow:  4px 4px 0px rgba(0, 0, 0, 0.2), 6px 6px 0px rgba(0, 0, 0, 0.2), 8px 8px 0px rgba(0, 0, 0, 0.2);;
+}
+
+.card-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.card-name span{
+    font-size: 14px;
+}
+.card-total {
+    font-size: 14px;
+}
+
+.card-back {
+    background-color: #3498db;
+}
+
+.card-blue {
+    background-color: #3498db;
+}
+
+.card-green {
+    background-color: #2ecc71;
+}
+.card-began {
+    background-color: #991fea;
+}
+.card-yellow {
+    background-color: #d9e813;
+}
+.card-red {
+    background-color: #ed2b52;
+}
+.card-black {
+    background-color: #010406;
+}
+
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.7);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  h1 {
+    animation: pulse 1.5s infinite;
+    color: #ed2b52;
+  }
+
+
+
+  .card-total.card-small {
+    font-size: 25px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold for a better effect */
+    text-transform: uppercase; /* Convert text to uppercase for consistency */
+    color: #ffffff; /* Set the text color */
+    position: relative; /* Set the positioning context */
+    display: inline-block;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2), 6px 6px 0px rgba(0, 0, 0, 0.2), 8px 8px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-total.card-small:hover {
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3), 8px 8px 0px rgba(0, 0, 0, 0.3), 10px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+  
